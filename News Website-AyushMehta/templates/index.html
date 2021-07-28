@@ -1,0 +1,32 @@
+
+{% extends "layout.html" %}
+
+    {% block title %}Flask Aljazera English News{% endblock %}
+
+{% block main %}
+
+<h1 style="font-size: 70px; ">Newsita</h1>
+
+<br>
+<br>
+<br>
+
+<div class="container" >
+    {% for i in article %}
+        <div class="box"><div class="shadow p-3 mb-5 bg-body rounded border border-warning"
+        style="font-size: 30px; color: brown; padding-left: 150px; padding-right: 150px;
+        font-family: 'Arbutus';font-style: bold; ">{{ i['title'] }}</div>
+            <p style="color: purple">{{ i['description'] }}</p>
+            <p><b>{{ i['published'] }}</b></p>
+            <p><a class="btn btn-secondary" style="background-color: purple" href="{{ i['link'] }}" target="_blank">View full details &raquo;</a></p>
+
+        </div>
+        <br>
+        <br>
+
+    {% endfor %}
+</div>
+{% endblock %}
+
+
+

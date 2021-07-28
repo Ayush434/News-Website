@@ -1,0 +1,59 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+
+}
+
+nav{
+    background-color: blue;
+}
+
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+
+}
+
+body{
+    background: #eaafc8;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    min-height: 100vh;
+}
+
+.container{
+    margin: auto;
+}
+
+.box{
+    margin: auto;
+    border: 10px dotted #F4F700;
+    padding: 35px;
+    background: lightgray;
+}
+
+
+.heading{
+    font-family: "Arial Black", sans-serif;
+    font-size: 4.5em;
+    letter-spacing: -1px;
+    background-color: darkgreen;
+    border: 3px solid black;
+    color: white;
+}
+
